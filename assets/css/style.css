@@ -266,7 +266,7 @@ footer p{
     border: 4px solid var(--primary);
   }
   .area5 img{
-    display: none;
+    width: 160px;
   }
 }
 
