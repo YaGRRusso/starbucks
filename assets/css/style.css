@@ -209,6 +209,12 @@ header .line{
   background-size: cover;
   background-position: center;
   height: 600px;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+}
+.area5 img{
+  width: 220px;
 }
 
 footer{
@@ -259,6 +265,9 @@ footer p{
     border-radius: 999px;
     border: 4px solid var(--primary);
   }
+  .area5 img{
+    display: none;
+  }
 }
 
 @media (max-width: 500px){
@@ -285,5 +294,8 @@ footer p{
   .area3,
   .area4{
     grid-template-columns: 1fr
+  }
+  .area5 img{
+    display: none;
   }
 }
